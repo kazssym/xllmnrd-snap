@@ -1,0 +1,8 @@
+syntax: regexp
+^prime$
+^stage$
+^parts$
+^snap/\.snapcraft$
+\.rej$
+\.orig$
+~$
