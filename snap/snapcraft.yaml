@@ -26,4 +26,4 @@ parts:
   xllmnrd:
     plugin: autotools
     source: https://bitbucket.org/kazssym/xllmnrd/downloads/xllmnrd-2.0.tar.gz
-    source-checksum: sha256/da39a3ee5e6b4b0d3255bfef95601890afd80709
+    source-checksum: sha256/2fdba0d03d23875652b14bee8fdbd4cd86dba74e59e37ab03b2d43d3eb2697f4
