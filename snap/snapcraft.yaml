@@ -27,3 +27,7 @@ parts:
     plugin: autotools
     source: https://bitbucket.org/kazssym/xllmnrd/downloads/xllmnrd-2.0.tar.gz
     source-checksum: sha256/2fdba0d03d23875652b14bee8fdbd4cd86dba74e59e37ab03b2d43d3eb2697f4
+    override-pull: |
+      snapcraftctl pull
+      rm build-aux/config.guess
+      cp /usr/share/libtool/build-aux/config.guess build-aux/config.guess
