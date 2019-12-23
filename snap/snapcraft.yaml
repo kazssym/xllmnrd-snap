@@ -10,8 +10,10 @@ title: XLLMNRD
 base: core
 version: "2.0.1"
 summary: Link-Local Multicast Name Resolution (LLMNR) responder daemon
-description: >
+description: |
   XLLMNRD is a Link-Local Multicast Name Resolution (LLMNR) responder daemon.
+
+  This program makes your Linux-based server accessible by name from modern Windows computers on the same LAN.
 license: GPL-3.0
 confinement: strict
 grade: devel
