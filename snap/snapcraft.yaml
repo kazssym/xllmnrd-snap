@@ -8,7 +8,7 @@
 name: xllmnrd
 title: XLLMNRD
 base: core
-version: "2.0.1"
+version: "3.0.0"
 summary: Link-Local Multicast Name Resolution (LLMNR) responder daemon
 description: |
   XLLMNRD is a Link-Local Multicast Name Resolution (LLMNR) responder daemon.
@@ -27,9 +27,7 @@ apps:
 parts:
   xllmnrd:
     plugin: autotools
-    source: https://bitbucket.org/kazssym/xllmnrd/downloads/xllmnrd-2.0.tar.gz
-    source-checksum: sha256/2fdba0d03d23875652b14bee8fdbd4cd86dba74e59e37ab03b2d43d3eb2697f4
-    override-pull: |
-      snapcraftctl pull
-      rm build-aux/config.guess
-      cp /usr/share/libtool/build-aux/config.guess build-aux/config.guess
+    source: https://bitbucket.org/kazssym/xllmnrd/downloads/xllmnrd-3-alpha.1.tar.gz
+    source-checksum: sha256/4bbbfabd51f21d57cc088f739e22dd74c0b703bce1e3433eca1aa80163862c38
+    build-packages:
+      - g++
