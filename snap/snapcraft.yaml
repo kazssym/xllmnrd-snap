@@ -21,6 +21,9 @@ apps:
   responder:
     command: xllmnrd
     daemon: forking
+    environment:
+      # To avoid getting killed when setting its locale.
+      LC_ALL: C
     plugs:
       - network
       - network-bind
