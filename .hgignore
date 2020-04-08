@@ -1,8 +1,5 @@
 syntax: regexp
-^prime$
-^stage$
-^parts$
-^snap/\.snapcraft$
+(^|/)snap/\.snapcraft$
 \.rej$
 \.orig$
 ~$
