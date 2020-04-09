@@ -16,7 +16,7 @@ description: |
   This program makes your Linux-based server accessible by name from modern Windows computers on the same LAN.
 license: GPL-3.0
 confinement: strict
-grade: devel
+grade: stable
 apps:
   responder:
     command: xllmnrd
