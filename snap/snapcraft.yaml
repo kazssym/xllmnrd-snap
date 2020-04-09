@@ -7,7 +7,7 @@
 ---
 name: xllmnrd
 title: XLLMNRD
-base: core
+base: core18
 version: "3.0.0"
 summary: Link-Local Multicast Name Resolution (LLMNR) responder daemon
 description: |
