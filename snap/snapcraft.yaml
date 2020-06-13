@@ -34,8 +34,8 @@ apps:
 parts:
   xllmnrd:
     plugin: autotools
-    source: https://bitbucket.org/kazssym/xllmnrd/downloads/xllmnrd-3-alpha.2.tar.gz
-    source-checksum: sha256/c356eff767b0dbab2443ac910f36635a7d1bdddb7c966ca5e343f0a9a97527e7
+    source: https://bitbucket.org/kazssym/xllmnrd/downloads/xllmnrd-3.0.tar.gz
+    source-checksum: sha256/330d1e5d9f4699e255052410ff6e2b225329000fbf260c86287dbb1bba780306
     build-packages:
       - g++
       - gettext
