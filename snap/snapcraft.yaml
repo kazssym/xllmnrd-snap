@@ -6,7 +6,7 @@
 # this notice are preserved.  This file is offered as-is, without any warranty.
 ---
 name: xllmnrd
-title: XLLMNRD
+title: Xenium LLMNR Responder
 base: core18
 version: "3.0.0"
 summary: Link-Local Multicast Name Resolution (LLMNR) responder daemon
