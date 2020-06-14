@@ -23,7 +23,7 @@ description: |
   Note this program has no UI.
 license: GPL-3.0
 confinement: strict
-grade: devel
+grade: stable
 apps:
   responder:
     command: xllmnrd
