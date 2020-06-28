@@ -8,7 +8,7 @@
 name: xllmnrd
 title: Xenium LLMNR Responder
 base: core18
-version: "3.0.0"
+version: "4.0.0"
 summary: Link-Local Multicast Name Resolution (LLMNR) responder daemon
 description: |
   Xenium LLMNR Responder (xllmnrd) is an IPv6 network service daemon
