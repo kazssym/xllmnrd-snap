@@ -7,7 +7,6 @@
 ---
 name: xllmnrd
 title: Xenium LLMNR Responder
-base: core18
 version: "4.0.0"
 summary: Link-Local Multicast Name Resolution (LLMNR) responder daemon
 description: |
@@ -21,9 +20,11 @@ description: |
   described in RFC 4795.
 
   Note this program has no UI.
-license: GPL-3.0
+license: GPL-3.0+
 confinement: strict
 grade: devel
+base: core18
+icon: icon.png
 apps:
   responder:
     command: xllmnrd
