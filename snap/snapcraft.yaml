@@ -21,7 +21,7 @@ description: |
   described in RFC 4795.
 
   Note this program has no UI.
-license: GPL-3.0
+license: GPL-3.0+
 confinement: strict
 grade: stable
 apps:
