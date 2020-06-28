@@ -21,10 +21,10 @@ description: |
 
   Note this program has no UI.
 license: GPL-3.0+
-icon: icon.png
 confinement: strict
 grade: stable
 base: core18
+icon: icon.png
 apps:
   responder:
     command: xllmnrd
