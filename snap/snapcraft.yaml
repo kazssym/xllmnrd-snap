@@ -7,7 +7,7 @@
 ---
 name: xllmnrd
 title: Xenium LLMNR Responder
-version: "3.0.1"
+version: "3.1.0"
 summary: Link-Local Multicast Name Resolution (LLMNR) responder daemon
 description: |
   Xenium LLMNR Responder (xllmnrd) is an IPv6 network service daemon
@@ -35,8 +35,8 @@ apps:
 parts:
   xllmnrd:
     plugin: autotools
-    source: https://bitbucket.org/kazssym/xllmnrd/downloads/xllmnrd-3.0.tar.gz
-    source-checksum: sha256/330d1e5d9f4699e255052410ff6e2b225329000fbf260c86287dbb1bba780306
+    source: https://bitbucket.org/kazssym/xllmnrd/downloads/xllmnrd-3.1.tar.gz
+    source-checksum: sha256/3c0ca183c0c13299d4f0536c4a9a69feb0acb7cfb343ff36ef6915ca025b2ed1
     build-packages:
       - g++
       - gettext
