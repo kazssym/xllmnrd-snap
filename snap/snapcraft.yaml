@@ -7,14 +7,14 @@
 ---
 name: xllmnrd
 title: Xenium LLMNR Responder
-version: "3.1.0"
+version: "4.0.0"
 summary: Link-Local Multicast Name Resolution (LLMNR) responder daemon
 description: |
   Xenium LLMNR Responder (xllmnrd) is an IPv6 network service daemon
   that responds to name queries from Microsoft Windows computers on the same
-  network link so that you can get the IPv6 addresses of the server *without
-  any DNS configuration*.  It effectively supplements IPv4-only NetBIOS name
-  resolution typically provided by Samba.
+  network link so that you can get the IP addresses of the server *without
+  any DNS configuration*.  It effectively replaces an IPv4-only NetBIOS name
+  resolution responder typically provided by Samba.
 
   This program implements Link-Local Multicast Name Resolution (LLMNR) as
   described in RFC 4795.
@@ -35,8 +35,8 @@ apps:
 parts:
   xllmnrd:
     plugin: autotools
-    source: https://bitbucket.org/kazssym/xllmnrd/downloads/xllmnrd-3.1.tar.gz
-    source-checksum: sha256/3c0ca183c0c13299d4f0536c4a9a69feb0acb7cfb343ff36ef6915ca025b2ed1
+    source: https://bitbucket.org/kazssym/xllmnrd/downloads/xllmnrd-4-alpha.2.tar.gz
+    # source-checksum: sha256/3c0ca183c0c13299d4f0536c4a9a69feb0acb7cfb343ff36ef6915ca025b2ed1
     build-packages:
       - g++
       - gettext
