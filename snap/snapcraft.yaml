@@ -32,6 +32,8 @@ apps:
     plugs:
       - network
       - network-bind
+    environment:
+      LC_ALL: C.UTF-8
 parts:
   xllmnrd:
     plugin: autotools
